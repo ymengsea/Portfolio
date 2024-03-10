@@ -1,0 +1,59 @@
+/* ------------------per skill-------------------  */
+.per-skill {
+  height: 5px;
+  width: 80%;
+  border-radius: 3px;
+  background-color: violet;
+  position: relative;
+  animation: progress 1s ease-in-out forwards;
+}
+.skill-title {
+  color: blueviolet;
+  cursor: pointer;
+}
+.skill-title img {
+  width: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.skill-title img:hover {
+  transform: scale(1.2) translateY(-5px);
+}
+.skill-bar {
+  height: 5px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: rgb(233, 231, 231);
+}
+.tooltips {
+  position: absolute;
+  right: -20px;
+  top: -30px;
+  width: 40px;
+  height: 20px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: violet;
+}
+.tooltips::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  z-index: -1;
+  background-color: violet;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+}
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

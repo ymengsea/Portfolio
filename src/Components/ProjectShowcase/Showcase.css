@@ -1,0 +1,41 @@
+.project_Name::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: violet;
+  bottom: -1px;
+}
+.showcase_container {
+  background-color: #2a2a32;
+  border-radius: 10px;
+}
+.showcase_btn {
+  background-color: violet;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+  transition: all 0.5s;
+}
+.showcase_btn:hover {
+  color: violet;
+  background-color: white;
+  transform: translateY(-3px);
+}
+.Project_showcase_img {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+.img_show {
+  transform: translateY(0);
+  transition: 5s ease-out;
+  position: absolute;
+}
+.img_show:hover {
+  transform: translateY(-84%);
+}

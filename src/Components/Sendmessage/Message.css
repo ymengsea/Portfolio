@@ -1,0 +1,24 @@
+.send_message_btn {
+  padding: 10px 15px;
+  color: white;
+  background-color: violet;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.4s;
+  border: 1px solid violet;
+}
+.send_message_btn:hover {
+  color: violet;
+  background-color: white;
+}
+.input {
+  height: 50px;
+}
+.textarea:focus {
+  box-shadow: none;
+  border: violet 1px solid;
+}
+.input:focus {
+  box-shadow: none;
+  border: violet 1px solid;
+}

@@ -1,0 +1,28 @@
+.Contact_icon {
+  width: 35px;
+  height: 35px;
+  background-color: violet;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid violet;
+  transition: all 0.4s;
+}
+.Contact_icon:hover {
+  transform: translateY(-5px);
+  color: violet;
+  background-color: white;
+}
+.info {
+  position: relative;
+}
+.info::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: violet;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+}

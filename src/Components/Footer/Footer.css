@@ -1,0 +1,37 @@
+.contact_form {
+  border: none;
+}
+.message {
+  border: none;
+  height: 35px;
+  width: 180px;
+  padding-left: 5px;
+}
+.message:focus {
+  outline: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid violet;
+}
+.submit_btn {
+  background-color: violet;
+  border: none;
+  height: 35px;
+  width: 80px;
+  padding: 0 10px;
+  color: white;
+  transition: all 0.4s;
+  font-weight: bolder;
+}
+.submit_btn:hover {
+  background-color: white;
+  border: 1px solid violet;
+  color: violet;
+}
+.a-link {
+  color: white;
+  transition: all 0.3s;
+}
+.a-link:hover {
+  color: violet;
+}
