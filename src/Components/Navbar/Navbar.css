@@ -50,7 +50,7 @@
   width: 100%;
 }
 .appear {
-  color: #ffa500 !important;
+  color: #ffa500;
 }
 .appear::after {
   content: " ";

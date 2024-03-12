@@ -16,6 +16,7 @@ import { IoGameControllerOutline } from "react-icons/io5";
 import { IoIosMusicalNotes } from "react-icons/io";
 import { FaLaptopCode } from "react-icons/fa";
 import Experience from "../Components/Experience/Experience";
+import Achievement from "../Components/Achiev/Achievement";
 const About = () => {
   return (
     <section>
@@ -87,6 +88,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Achievement />
       <Footer />
     </section>
   );

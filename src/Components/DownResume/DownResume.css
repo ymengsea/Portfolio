@@ -1,0 +1,13 @@
+.download_resume_btn {
+  background-color: violet;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid violet;
+  transition: all 0.4s;
+  text-decoration: none;
+}
+.download_resume_btn:hover {
+  background-color: white;
+  color: violet;
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { MdOutlineAlternateEmail } from "react-icons/md";
@@ -28,30 +28,30 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item px-2">
                 {/* add class appear */}
-                <Link className="nav-link link" to="/About">
+                <NavLink className={({ isActive }) => (isActive ? "appear nav-link link" : "nav-link link")} to="/About">
                   About
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item px-2">
-                <Link className="nav-link link" to="/work">
+                <NavLink className={({ isActive }) => (isActive ? "appear nav-link link" : "nav-link link")} to="/work">
                   Work
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item px-2">
-                <Link className="nav-link link" to="/Resume">
+                <NavLink className={({ isActive }) => (isActive ? "appear nav-link link" : "nav-link link")} to="/Resume">
                   <div className="d-flex align-items-center">
                     Resume
                     <MdOutlineFileDownload className="fs-4" />
                   </div>
-                </Link>
+                </NavLink>
               </li>
 
               <li className="nav-item px-2">
-                <Link className="nav-link link" to="/Contact">
+                <NavLink className={({ isActive }) => (isActive ? "appear nav-link link" : "nav-link link")} to="/Contact">
                   Cont
                   <MdOutlineAlternateEmail className="fs-5" />
                   ct
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>

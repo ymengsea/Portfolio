@@ -33,9 +33,29 @@
 }
 .img_show {
   transform: translateY(0);
-  transition: 5s ease-out;
+  transition: 4s ease-in-out;
   position: absolute;
 }
 .img_show:hover {
   transform: translateY(-84%);
+}
+@media only screen and (max-width: 992px) {
+  .img_show:hover {
+    transform: translateY(-73%);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .img_show:hover {
+    transform: translateY(-82%);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .img_show:hover {
+    transform: translateY(-72%);
+  }
+}
+@media (min-width: 1400px) {
+  .img_show:hover {
+    transform: translateY(-84%);
+  }
 }
