@@ -69,7 +69,7 @@ const Experience = (props) => {
                 <div className="py-2 px-3">
                   <div className="d-flex justify-content-between">
                     <h2>Internship</h2>
-                    <p>9/2023-1/2024</p>
+                    <p>11/2023-1/2024</p>
                   </div>
                   <p>I also uoe to train and work as an Intership with a startup company but i resign due to bad situation</p>
                   <p>Position Fron-end</p>

@@ -1,0 +1,26 @@
+.changetext {
+  color: violet;
+  position: relative;
+}
+.changetext::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-left: 2px solid violet;
+  animation: tying 4s steps(11) infinite;
+}
+@keyframes tying {
+  40% {
+    left: 100%;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}

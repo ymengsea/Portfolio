@@ -1,0 +1,14 @@
+.Contact_icon {
+  width: 35px;
+  height: 35px;
+  background-color: violet;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid violet;
+  transition: all 0.4s;
+}
+.Contact_icon:hover {
+  transform: translateY(-5px);
+  color: violet;
+  background-color: white;
+}

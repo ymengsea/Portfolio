@@ -15,10 +15,10 @@
   height: 50px;
 }
 .textarea:focus {
-  box-shadow: none;
-  border: violet 1px solid;
+  box-shadow: none !important;
+  border: violet 1px solid !important;
 }
 .input:focus {
-  box-shadow: none;
-  border: violet 1px solid;
+  box-shadow: none !important;
+  border: violet 1px solid !important;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
-import Me from "../Components/Me/Me";
+import Hero from "../Components/Hero/Hero";
 import Experience from "../Components/Experience/Experience";
 import Skill from "../Components/Skill/Skill";
 import htmlIcon from "../assets/image/html-5.png";
@@ -10,13 +10,18 @@ import JsIcon from "../assets/image/JavaScript-logo.png";
 import bootstrapIcon from "../assets/image/Bootstrap_logo.svg.png";
 import reactIcon from "../assets/image/React_Logo_SVG.svg.png";
 import photoshopIcon from "../assets/image/Adobe_Photoshop_CC_icon.svg.png";
+import Achievement from "../Components/Achiev/Achievement";
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <Me />
+      <Hero />
+      <Achievement />
+      <div className="display-4 text-decoration-underline text-center py-4" style={{ color: "violet", fontFamily: "'Playball', cursive" }}>
+        Education & Experiences
+      </div>
       <Experience />
-      <div className="container py-3">
+      <div className="container py-5">
         <div className="display-4 text-decoration-underline text-center py-4" style={{ color: "violet", fontFamily: "'Playball', cursive" }}>
           Technical skills
         </div>
